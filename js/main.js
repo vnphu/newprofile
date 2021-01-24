@@ -30,9 +30,9 @@ console.log(menu);
 menu.addEventListener("click", (e) => {
   menu_ul.classList.toggle("hide");
 });
-// close.addEventListener("click", (e) => {
-//   menu_ul.classList.toggle("hide");
-// });
+close.addEventListener("click", (e) => {
+  menu_ul.classList.toggle("hide");
+});
 // gsap animation laod
 
 TweenMax.from(".header__w--logo", 1, {
