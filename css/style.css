@@ -162,6 +162,10 @@ main .title {
           justify-content: center;
 }
 
+main .title .title__type {
+  display: none;
+}
+
 main .title .title__typing {
   white-space: nowrap;
   position: relative;
@@ -916,15 +920,11 @@ main.contact ul li .contact__description button {
 
 @media only screen and (max-width: 500px) {
   .title__typing {
-    font-size: 16px;
-    padding: 10px;
-    text-align: justify;
-    -webkit-animation: none !important;
-            animation: none !important;
-    width: 100%;
-    padding: initial;
-    white-space: wrap !important;
-    word-wrap: break-word !important;
+    display: none;
+  }
+  main .title .title__type {
+    display: block;
+    text-align: center;
   }
   .project img {
     height: 300px;
