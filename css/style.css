@@ -759,12 +759,33 @@ main.work {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 40px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation: updown 3s infinite;
+          animation: updown 3s infinite;
+}
+
+@-webkit-keyframes updown {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes updown {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 main.contact {
