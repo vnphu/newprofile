@@ -517,10 +517,10 @@ footer .footer__wrap .center ul li:nth-child(4)::after {
     right: 0;
     z-index: 2;
     background-color: black;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-    -webkit-transform: translate(100%, 0);
-            transform: translate(100%, 0);
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transform: translate(0, -200%);
+            transform: translate(0, -200%);
   }
   header .header__r ul li {
     width: 100%;
@@ -531,8 +531,8 @@ footer .footer__wrap .center ul li:nth-child(4)::after {
     font-size: 16px;
   }
   header .header__r .hide {
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
   }
