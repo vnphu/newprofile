@@ -617,11 +617,14 @@ main.work {
     animation: updown 3s infinite;
 }
 @keyframes updown {
-    from {
+    0% {
+        opacity: 0;
+    }
+    50% {
         opacity: 1;
     }
-    to {
-        opacity: 0;
+    100% {
+        opacity: 1;
     }
 }
 main.contact {
